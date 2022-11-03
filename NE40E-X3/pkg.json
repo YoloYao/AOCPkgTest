@@ -1,0 +1,25 @@
+{
+    "name": "NE40E-X3",
+    "version": "1.0.0",
+    "description": "",
+    "package-type": "snd",
+    "producer": "HUAWEI",
+    "nce-min-versions": [
+        "2.0.0"
+    ],
+    "snd-id": "NE40E-X3",
+    "devices": [
+      {
+        "vendor": "huawei",
+        "device-type": "NE40E-X3",
+        "device-version": "V800R009C10SPC100"
+      }
+    ],
+    "hooks": [
+      {
+        "type": "snd",
+        "key": "ecs-driver",
+        "python-class-name": "com.huawei.controller.devicetype.snd.SND"
+      }
+    ]
+}
